@@ -136,6 +136,7 @@
       align-items: center;
       gap: 31px;
       .left-content {
+        margin-left: 20px;
         .box {
           max-width: 100%;
           .big-text {
@@ -144,8 +145,8 @@
         }
       }
       .right-content {
-        max-width: 100%;
-        background-size: contain;
+        background-size: cover;
+        max-width: 700px;
       }
     }
   }
@@ -375,7 +376,7 @@
   .section4 {
     .container {
       .right-content {
-        min-height: 215px;
+        background-size: contain;
       }
       .left-content {
         .box {

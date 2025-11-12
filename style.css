@@ -137,6 +137,8 @@ body {
   background-position: 50% 400px;
   background-size: 200%;
   min-height: 1983px;
+  position: relative;
+  z-index: -1;
 }
 
 .section1 {
@@ -565,11 +567,13 @@ body {
 .section4 .right-content {
   background-image: url(/assets/section4-img.png);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   max-width: 700px;
   width: 100%;
   min-height: 352px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .bottom-background {
